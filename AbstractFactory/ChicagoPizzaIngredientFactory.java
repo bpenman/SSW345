@@ -1,5 +1,5 @@
 
-public class ChicagoPizzaIngredientFactory {
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory{
 	 
 		public Dough createDough() {
 			return new ThickCrustDough();
